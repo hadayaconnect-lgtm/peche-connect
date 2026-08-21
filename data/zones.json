@@ -1,0 +1,308 @@
+{
+  "zones": [
+    {
+      "id": "doraleh",
+      "nom": "Large de Doraleh",
+      "lat": 11.6015,
+      "lon": 43.0735,
+      "rayonKm": 4
+    },
+    {
+      "id": "djibouti-ville",
+      "nom": "Baie de Djibouti-ville",
+      "lat": 11.595,
+      "lon": 43.145,
+      "rayonKm": 3
+    },
+    {
+      "id": "khor-ambado",
+      "nom": "Khor Ambado",
+      "lat": 11.555,
+      "lon": 43.055,
+      "rayonKm": 3.5
+    },
+    {
+      "id": "sables-blancs",
+      "nom": "Sables Blancs",
+      "lat": 11.68,
+      "lon": 42.86,
+      "rayonKm": 3
+    },
+    {
+      "id": "arta-plage",
+      "nom": "Arta Plage",
+      "lat": 11.52,
+      "lon": 42.72,
+      "rayonKm": 3.5
+    },
+    {
+      "id": "tadjourah",
+      "nom": "Baie de Tadjourah",
+      "lat": 11.79,
+      "lon": 42.88,
+      "rayonKm": 4.5
+    },
+    {
+      "id": "ghoubet",
+      "nom": "Le Ghoubet",
+      "lat": 11.53,
+      "lon": 42.47,
+      "rayonKm": 5
+    },
+    {
+      "id": "obock",
+      "nom": "Large d'Obock",
+      "lat": 11.97,
+      "lon": 43.29,
+      "rayonKm": 5
+    },
+    {
+      "id": "moucha",
+      "nom": "Îles Moucha",
+      "lat": 11.71,
+      "lon": 43.23,
+      "rayonKm": 3
+    },
+    {
+      "id": "maskali",
+      "nom": "Îles Maskali",
+      "lat": 11.73,
+      "lon": 43.28,
+      "rayonKm": 2.5
+    },
+    {
+      "id": "bab-el-mandeb",
+      "nom": "Détroit de Bab-el-Mandeb",
+      "lat": 12.58,
+      "lon": 43.35,
+      "rayonKm": 6
+    },
+    {
+      "id": "loyada",
+      "nom": "Large de Loyada",
+      "lat": 11.4,
+      "lon": 43.28,
+      "rayonKm": 4
+    },
+    {
+      "id": "large-golfe-tadjoura",
+      "nom": "Large du Golfe de Tadjoura",
+      "lat": 11.72,
+      "lon": 43.05,
+      "rayonKm": 7
+    },
+    {
+      "id": "fosse-tadjoura",
+      "nom": "Fosse de Tadjoura",
+      "lat": 11.65,
+      "lon": 42.65,
+      "rayonKm": 6
+    },
+    {
+      "id": "large-ras-bir",
+      "nom": "Large de Ras Bir",
+      "lat": 12.05,
+      "lon": 43.35,
+      "rayonKm": 6.5
+    },
+    {
+      "id": "canal-perim",
+      "nom": "Canal de la Perim",
+      "lat": 12.65,
+      "lon": 43.42,
+      "rayonKm": 7
+    },
+    {
+      "id": "large-golfe-aden",
+      "nom": "Large du Golfe d'Aden",
+      "lat": 12.3,
+      "lon": 43.9,
+      "rayonKm": 8
+    },
+    {
+      "id": "massawa",
+      "nom": "Massawa (Érythrée)",
+      "lat": 15.6082,
+      "lon": 39.4478,
+      "rayonKm": 6
+    },
+    {
+      "id": "dahlak",
+      "nom": "Archipel de Dahlak (Érythrée)",
+      "lat": 15.75,
+      "lon": 40.2,
+      "rayonKm": 8
+    },
+    {
+      "id": "assab",
+      "nom": "Assab (Érythrée)",
+      "lat": 13.0079,
+      "lon": 42.7346,
+      "rayonKm": 6
+    },
+    {
+      "id": "zeila-somaliland",
+      "nom": "Zeila (Somaliland)",
+      "lat": 11.357,
+      "lon": 43.4795,
+      "rayonKm": 5
+    },
+    {
+      "id": "berbera",
+      "nom": "Berbera (Somaliland)",
+      "lat": 10.4396,
+      "lon": 45.0143,
+      "rayonKm": 6
+    },
+    {
+      "id": "bosaso",
+      "nom": "Bosaso (Puntland)",
+      "lat": 11.2842,
+      "lon": 49.1816,
+      "rayonKm": 6
+    },
+    {
+      "id": "cap-guardafui",
+      "nom": "Cap Guardafui",
+      "lat": 11.8151,
+      "lon": 51.2752,
+      "rayonKm": 8
+    },
+    {
+      "id": "eyl",
+      "nom": "Eyl (Puntland)",
+      "lat": 7.9803,
+      "lon": 49.8164,
+      "rayonKm": 6
+    },
+    {
+      "id": "hobyo",
+      "nom": "Hobyo (Somalie)",
+      "lat": 5.3505,
+      "lon": 48.5268,
+      "rayonKm": 6
+    },
+    {
+      "id": "mogadiscio",
+      "nom": "Large de Mogadiscio",
+      "lat": 2.0469,
+      "lon": 45.3182,
+      "rayonKm": 6
+    },
+    {
+      "id": "merca",
+      "nom": "Merca (Somalie)",
+      "lat": 1.7167,
+      "lon": 44.7667,
+      "rayonKm": 5
+    },
+    {
+      "id": "kismayo",
+      "nom": "Kismayo (Somalie)",
+      "lat": -0.3582,
+      "lon": 42.5454,
+      "rayonKm": 6
+    },
+    {
+      "id": "large-massawa",
+      "nom": "Large de Massawa (mer Rouge)",
+      "lat": 15.6,
+      "lon": 40.6,
+      "rayonKm": 9
+    },
+    {
+      "id": "large-assab",
+      "nom": "Large d'Assab (mer Rouge)",
+      "lat": 12.9,
+      "lon": 43.3,
+      "rayonKm": 9
+    },
+    {
+      "id": "large-berbera",
+      "nom": "Large de Berbera (Golfe d'Aden)",
+      "lat": 11.3,
+      "lon": 45.0,
+      "rayonKm": 9
+    },
+    {
+      "id": "large-golfe-aden-central",
+      "nom": "Golfe d'Aden central",
+      "lat": 12.0,
+      "lon": 47.5,
+      "rayonKm": 10
+    },
+    {
+      "id": "large-bosaso",
+      "nom": "Large de Bosaso (mer d'Arabie)",
+      "lat": 11.5,
+      "lon": 50.3,
+      "rayonKm": 9
+    },
+    {
+      "id": "large-eyl",
+      "nom": "Large d'Eyl (océan Indien)",
+      "lat": 7.9,
+      "lon": 51.0,
+      "rayonKm": 9
+    },
+    {
+      "id": "large-hobyo",
+      "nom": "Large de Hobyo (océan Indien)",
+      "lat": 5.2,
+      "lon": 50.0,
+      "rayonKm": 9
+    },
+    {
+      "id": "large-mogadiscio-large",
+      "nom": "Large de Mogadiscio (océan Indien)",
+      "lat": 1.8,
+      "lon": 46.8,
+      "rayonKm": 9
+    },
+    {
+      "id": "large-kismayo",
+      "nom": "Large de Kismayo (océan Indien)",
+      "lat": -0.6,
+      "lon": 43.7,
+      "rayonKm": 9
+    }
+  ],
+  "ports": [
+    {
+      "id": "djibouti-ville",
+      "nom": "Djibouti-ville",
+      "lat": 11.5955,
+      "lon": 43.1456
+    },
+    {
+      "id": "massawa",
+      "nom": "Massawa",
+      "lat": 15.6082,
+      "lon": 39.4478
+    },
+    {
+      "id": "assab",
+      "nom": "Assab",
+      "lat": 13.0079,
+      "lon": 42.7346
+    },
+    {
+      "id": "berbera",
+      "nom": "Berbera",
+      "lat": 10.4396,
+      "lon": 45.0143
+    },
+    {
+      "id": "bosaso",
+      "nom": "Bosaso",
+      "lat": 11.2842,
+      "lon": 49.1816
+    },
+    {
+      "id": "mogadiscio",
+      "nom": "Mogadiscio",
+      "lat": 2.0469,
+      "lon": 45.3182
+    }
+  ]
+}

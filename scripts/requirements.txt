@@ -1,0 +1,5 @@
+copernicusmarine>=2.0.0
+xarray>=2024.3.0
+netCDF4>=1.6.5
+numpy>=1.26.0
+requests>=2.31.0

@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  background-color: #0B1F2E;
+}
+
+/* Étiquettes de la carte Leaflet, stylées pour correspondre au thème sombre */
+.leaflet-tooltip.etiquette-carte {
+  background: #16324A;
+  color: #F2EAD8;
+  border: 1px solid rgba(79, 195, 217, 0.3);
+  font-size: 11px;
+  padding: 2px 8px;
+}
+.leaflet-tooltip {
+  background: #16324A !important;
+  color: #F2EAD8 !important;
+  border: 1px solid rgba(79, 195, 217, 0.25) !important;
+  box-shadow: none !important;
+}
+.leaflet-tooltip-top:before {
+  border-top-color: #16324A !important;
+}
+.leaflet-container {
+  font-family: var(--font-body), sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

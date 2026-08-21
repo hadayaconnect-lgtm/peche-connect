@@ -1,0 +1,31 @@
+name: Récupération données satellite (Copernicus)
+
+on:
+  schedule:
+    # Tous les jours à 04:00 UTC (07:00 à Djibouti) — après la publication
+    # des produits NRT Copernicus qui a lieu généralement en fin de nuit UTC
+    - cron: "0 4 * * *"
+  workflow_dispatch: {} # permet aussi un déclenchement manuel depuis GitHub
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances
+        run: pip install -r scripts/requirements.txt
+
+      - name: Récupérer les données et pousser vers Supabase
+        env:
+          COPERNICUSMARINE_SERVICE_USERNAME: ${{ secrets.COPERNICUSMARINE_SERVICE_USERNAME }}
+          COPERNICUSMARINE_SERVICE_PASSWORD: ${{ secrets.COPERNICUSMARINE_SERVICE_PASSWORD }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python scripts/fetch_copernicus.py
